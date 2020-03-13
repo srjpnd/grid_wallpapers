@@ -23,7 +23,7 @@ class homepage extends StatelessWidget {
       body:OrientationBuilder(builder: (context,orientation){
         return GridView.count(
           crossAxisCount:Orientation==Orientation.portrait?3:2,
-          crossAxisSpacing: 5.0,
+          crossAxisSpacing: 2.0,
           children: List.generate(6, (index)
           {return Image.asset(
             "images/$index.jpg",
